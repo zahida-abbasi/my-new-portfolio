@@ -404,6 +404,7 @@
     display: grid;
     gap: 50px;
     margin-block-end: 70px;
+    margin-top: 150px
   }
   
   .progress-list .label-wrapper {
@@ -446,7 +447,7 @@
     #PROJECTS
   \*-----------------------------------*/
   
-  .project { border-block: 1px solid var(--cadet-blue-crayola_a20); }
+  .project { border-block: 1px solid var(--cadet-blue-crayola_a20); margin-top: 150px }
   
   .project .title-wrapper { margin-block-end: 40px; }
   
