@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Zahida - I'm User Interface Designer & Web Developer.</title>
+  <meta name="title" content="zahida - I'm User Interface Designer & Web Developer.">
+  <meta name="description" content="This is a personal portfolio made in html,CSS, and Javascript.">
+
+
+  <link rel="icon" type="image/png" href="./assets/images/favi-icon.png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.png" width="150" height="150" alt="my home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo2.png" width="64" height="64" alt="zahida home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">zaheda.abbasi@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-gmail"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+             <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="https://vercel.com/zahida-abbasi" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Blog Website</p>
+
+                  <h3 class="h3 card-title">Blog Master</h3>
+
+                  <p class="card-text">
+                    This is a dynamic blog website created using Next.js and Tailwind CSS. Where every post randered dynamically.
+                  </p>
+
+                  <a href="https://master-blog-website.vercel.app/" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.jpg" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+
+                  <h3 class="h3 card-title">Next App</h3>
+
+                  <p class="card-text">
+                    Next App is fully responsive website created using Next.js and Tailwind CSS.Dynamic routing and static site generation.
+                  </p>
+
+                  <a href="https://multi-page-website-with-next-js-w836.vercel.app/" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">Globe Tech</h3>
+
+                  <p class="card-text">
+                    Globe Tech is fully responsive website created using Next.js and Tailwind CSS.Using component based design. 
+                  </p>
+
+                  <a href="https://simple-website-in-nextjs.vercel.app/" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Editable Resume</h3>
+
+                  <p class="card-text">
+                    This is a resume bulider app made with Html, Css and TypeScript where user can create resume additionally user can edit,delete and update it and download it as pdf.
+                  </p>
+
+                  <a href="https://resume-builder-six-omega.vercel.app/" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            
+            <li>
+                <div class="project-card project-card-3" style="background-color: #f5faf7">
+  
+                  <div class="card-content" data-reveal="left">
+  
+                    <p class=" card-tag" style="color: #7cb798">Mobile Design</p>
+  
+                    <h3 class="h3 card-title">Analog Clock</h3>
+  
+                    <p class="card-text">
+                      I made an analog clock using Html, Css and javascript. By clicking on the analog clock you can see the time in real time.
+                    </p>
+  
+                    <a href="https://analog-clock-tau-three.vercel.app/" class="btn-text" style="color: #7cb798">
+                      <span class="span">See Project</span>
+  
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                  </div class=>
+  
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="./assets/images/project-9.jpg" width="600" height="367" loading="lazy" alt="Web Design"
+                      class="w-100, h-500">
+                  </figure>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="project-card project-card-4" style="background-color: #fcf4f6">
+  
+                  <div class="card-content" data-reveal="left">
+  
+                    <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+  
+                    <h3 class="h3 card-title">Resume Builder</h3>
+  
+                    <p class="card-text">
+                      I made a resume builder app using Html, Css and Typescript. By clicking on the resume builder you can create your resume and download as pdf.
+                    </p>
+  
+                    <a href="https://editable-resume-one-nu.vercel.app/" class="btn-text" style="color: #d16b86">
+                      <span class="span">See Project</span>
+  
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                  </div>
+  
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="./assets/images/project-6.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                      class="w-100">
+                  </figure>
+  
+                </div>
+              </li>
+
+              
+              <li>
+                <div class="project-card project-card-4" style="background-color: #fcf4f6">
+  
+                  <div class="card-content" data-reveal="left">
+  
+                    <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+  
+                    <h3 class="h3 card-title">Dynamic Calculator</h3>
+  
+                    <p class="card-text">
+                      I made a dynamic calculator using Html, Css and Javascript. By clicking on the calculator you can calculate anything.smooth and fast working.
+                    </p>
+  
+                    <a href="https://dynamic-calculator-two.vercel.app/" class="btn-text" style="color: #d16b86">
+                      <span class="span">See Project</span>
+  
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                  </div>
+  
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="./assets/images/project-5.jpg" width="620" height="370" loading="lazy" alt="Mobile Design"
+                      class="w-100 h-80">
+                  </figure>
+  
+                </div>
+              </li>
+
+              
+              <li>
+                <div class="project-card project-card-4" style="background-color: #fcf4f6">
+  
+                  <div class="card-content" data-reveal="left">
+  
+                    <p class=" card-tag" style="color: #d16b86">Web Design</p>
+  
+                    <h3 class="h3 card-title">My Resume</h3>
+  
+                    <p class="card-text">
+                      This is my static resume.I made using core Html, Css and Typescript with interective UI design.
+                    </p>
+  
+                    <a href="https://my-latest-resume.vercel.app/" class="btn-text" style="color: #d16b86">
+                      <span class="span">See Project</span>
+  
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a>
+  
+                  </div>
+  
+                  <figure class="card-banner" data-reveal="right">
+                    <img src="./assets/images/project-8.jpg" width="620" height="400" loading="lazy" alt="Mobile Design"
+                      class="w-100 h-150">
+                  </figure>
+  
+                </div>
+              </li>
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 designed by ZAHIDA. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+ <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Zahida - I'm User Interface Designer & Web Developer.</title>
+  <meta name="title" content="zahida - I'm User Interface Designer & Web Developer.">
+  <meta name="description" content="This is a personal portfolio made in html,CSS, and Javascript.">
+
+
+  <link rel="icon" type="image/png" href="./assets/images/favi-icon.png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.png" width="150" height="150" alt="my home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo2.png" width="64" height="64" alt="zahida home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">zaheda.abbasi@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-gmail"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+              <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I build responsive websites and applications, creating user-friendly interfaces with a focus on performance. I design and develop custom solutions for businesses while ensuring cross-browser compatibility and accessibility. Additionally, I optimize web solutions for seamless user experiences.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>HTML & CSS</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #be7eff"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Javascript & Typescript</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #709ff5"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Next Js</p>
+
+                  <span class="span">60 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 60%; background-color: #79d5a4"></div>
+                </div>
+
+              </li>
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>React Js</p>
+
+                  <span class="span">50 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 50%; background-color: #fa7aad"></div>
+                </div>
+
+              </li>
+
+              
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Tailwind CSS</p>
+
+                  <span class="span">60 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 60%; background-color: #f39b61"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/html-5.png" width="52" height="52" loading="lazy" alt="html-5 icon">
+                </div>
+
+                <h3 class="h4 card-title">HTML-5</h3>
+
+                <p class="card-text">
+                    I have extensive experience in HTML, creating responsive and accessible web pages with semantic markup. I ensure cross-browser compatibility.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">CSS3</h3>
+
+                <p class="card-text">
+                    I have extensive experience in CSS, creating responsive designs and smooth animations. I focus on accessibility for a seamless user experience.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/js.png" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Javascript</h3>
+
+                <p class="card-text">
+                    Proficient in JavaScript for building interactive web applications.
+                    Skilled in optimizing performance and enhancing user experience.
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Typescript</h3>
+
+                <p class="card-text">
+                    Experienced in TypeScript for developing scalable applications.
+                    Strong focus on type safety and enhancing code maintainability.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="about-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/react.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                  </div>
+  
+                  <h3 class="h4 card-title">React Js</h3>
+  
+                  <p class="card-text">
+                    I develop dynamic web applications using React, focusing on component-based architecture for reusability. I create responsive interfaces that enhance user experience and streamline performance.
+                  </p>
+  
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="about-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/next-js.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                  </div>
+  
+                  <h3 class="h4 card-title">Next Js</h3>
+  
+                  <p class="card-text">
+                    I build fast and scalable web applications using Next.js, leveraging server-side rendering for optimal performance. I create seamless user experiences with dynamic routing and static site generation.
+                  </p>
+  
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="about-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/tailwind.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                  </div>
+  
+                  <h3 class="h4 card-title">Tailwind</h3>
+  
+                  <p class="card-text">
+                    I create modern, responsive designs using Tailwind CSS, utilizing utility-first classes for rapid development. I ensure consistency and customization in styling while maintaining a focus on performance.
+                  </p>
+  
+                </div>
+              </li>
+
+              <li data-reveal="bottom" data-reveal-delay="0.75s">
+                <div class="about-card">
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/figma.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                  </div>
+  
+                  <h3 class="h4 card-title">Figma</h3>
+  
+                  <p class="card-text">
+                    I create modern, responsive designs using figma, utilizing utility-first classes for rapid development. I ensure consistency and customization in styling while maintaining a focus on performance.
+                  </p>
+  
+                </div>
+              </li>
+
+          </ul>
+
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 designed by ZAHIDA. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+ <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
